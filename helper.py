@@ -24,3 +24,7 @@ def update_expence():
      expence_entry[position]=(name,purpose,amount,exp_date)
 def get_expence():
      return expence_entry
+def set_expences(data):
+     global expence_entry
+     expence_entry=data
+     

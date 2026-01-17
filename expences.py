@@ -1,6 +1,8 @@
 from helper import *
 from fileoperations import *
 s=0
+expence_init=read_data()
+set_expences(expence_init)
 while(s==0):
     print("===================")
     print("1->For Insert")
