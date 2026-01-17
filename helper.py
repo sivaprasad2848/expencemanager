@@ -22,3 +22,5 @@ def update_expence():
      amount=input("Enter Amount")
      exp_date=input("Date of Entry")
      expence_entry[position]=(name,purpose,amount,exp_date)
+def get_expence():
+     return expence_entry

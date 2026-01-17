@@ -1,4 +1,5 @@
 from helper import *
+from fileoperations import *
 s=0
 while(s==0):
     print("===================")
@@ -18,3 +19,7 @@ while(s==0):
     if(option==4):
         update_expence()
     s=int(input("Do you want to continue?press 0 for yes"))
+    if(s!=0):
+         expences=get_expence()
+         write_data(expences)
+
