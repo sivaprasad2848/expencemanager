@@ -13,4 +13,8 @@ while(s==0):
     if(option==2):
         #print(expence_entry)
         display_expences()
+    if(option==3):
+        delete_expence()
+    if(option==4):
+        update_expence()
     s=int(input("Do you want to continue?press 0 for yes"))
