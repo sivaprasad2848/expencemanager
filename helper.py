@@ -1,0 +1,12 @@
+expence_entry=[] #list ()tuple
+def create_expence():
+    name=input("Enter Payee")
+    purpose=input("Enter purpose")
+    amount=input("Enter Amount")
+    exp_date=input("Date of Entry")
+    #print(name+" "+purpose+" "+amount+" "+exp_date)
+    expence_entry.append((name,purpose,amount,exp_date))
+def display_expences():
+     for item in expence_entry:
+            #print(item)
+            print(item[0]+" "+item[1]+" "+item[2]+" "+item[3])  
